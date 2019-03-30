@@ -11,7 +11,7 @@ For the additional information, you can refer the below standard specifications.
     - 3GPP TS 24.623 : XCAP over the Ut interface for manipulating supplementary services
       (XCAP : XML Configuration Access Protocol)
 
-To get started, you need to get an instance of the ImsManager by calling ImsManager#getInstance().
+To get started, you need to get an instance of the ImsManager by calling ImsManager#getInstance()
 
 With the ImsManager, you can initiate VoLTE calls with ImsManager#makeCall()
 and ImsManager#takeCall(). Both methods require a ImsCall#Listener that
